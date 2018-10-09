@@ -1,0 +1,18 @@
+
+public class QAConsulting {
+	
+	static QAConsulting result;
+	
+	private QAConsulting() {
+		
+	}
+	
+	public static QAConsulting createObject() {
+		if(result == null) {
+			result = new QAConsulting();
+		}
+		
+		return result;
+	}
+
+}

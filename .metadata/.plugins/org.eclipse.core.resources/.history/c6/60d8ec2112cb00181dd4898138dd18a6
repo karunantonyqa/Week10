@@ -1,0 +1,21 @@
+import java.awt.Label;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Event implements ActionListener{
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		
+		Event e = new Event();
+		
+		Label l1 = new Label();
+		
+		l1.setText(Main.R1.name);
+
+		
+		System.out.println("Hello");
+		
+	}
+
+}

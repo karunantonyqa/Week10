@@ -1,0 +1,65 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+
+public class Main {
+	
+	static QAConsulting R1, R2, R3;
+	static float opacity = (float) 0.76;
+	
+	public static void main(String[] args) {
+		R1 = QAConsulting.createObject();
+		R2 = QAConsulting.createObjectWithPar("Karun", 23, "Birmingham");
+
+//		System.out.println("Name: " + R1.name + "\nAge: " + R1.age + "\nLocation: " + R1.location);
+//
+//		System.out.println(R2.name + R2.age + R2.location);
+		
+		
+		
+		Frame f = new Frame("Main frame");
+
+		Event e = new Event();
+		
+		Label l1 = new Label();
+		
+		Button b1 = new Button("Button NORTH");
+		Button b2 = new Button("Button SOUTH");
+//		Button b3 = new Button("Button CENTER");
+		Button b4 = new Button("Button EAST");
+		Button b5 = new Button("Button WEST");
+		
+		b1.addActionListener(e);
+		
+		f.add(b1, BorderLayout.NORTH);
+//		f.add(b2, BorderLayout.SOUTH);
+//		f.add(b4, BorderLayout.EAST);
+//		f.add(b5, BorderLayout.WEST);
+		
+
+		
+		
+		
+//		JTextField text = new JTextField(70);
+//		f.add(text);
+		
+		l1.setText(R2.name);
+		
+//		f.add(l1, BorderLayout.CENTER);
+
+
+		
+		f.setSize(400,400);
+		f.setLayout(new FlowLayout());
+		f.setTitle("QA Consulting");
+		f.setBackground(Color.BLUE);
+		f.setCursor(Cursor.HAND_CURSOR);
+		
+		f.setVisible(true);
+		
+	}
+
+}

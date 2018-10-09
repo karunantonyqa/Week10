@@ -1,0 +1,25 @@
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Event implements ActionListener {
+	
+	TextField TF1, TF2, TF3;
+	
+	public Event(TextField a, TextField b, TextField c) {
+		TF1 = a;
+		TF2 = b;
+		TF3 = c;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		int a, b, c;
+		a = b = c = 0;
+		
+		a = Integer.parseInt(TF1.getText());
+		b = Integer.parseInt(TF2.getText());
+		
+	}
+
+}

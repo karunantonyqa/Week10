@@ -1,0 +1,15 @@
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.TextField;
+
+public class Main {
+	
+	static Frame f;
+	static Button B1, B2, B3, B4;
+	static TextField T1, T2, T3;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

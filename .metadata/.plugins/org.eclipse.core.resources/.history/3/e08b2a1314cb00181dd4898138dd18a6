@@ -1,0 +1,46 @@
+import java.awt.*;
+
+import javax.swing.JTextArea;
+
+
+public class Main {
+	
+	static JTextArea textArea;
+	
+	static QAConsulting R1, R2;
+	
+	public static void main(String[] args) {
+		R1 = QAConsulting.createObject();
+		R2 = QAConsulting.createObjectWithPar("Karun", 23, "Birmingham");
+
+		//Instantiate objects
+		Frame f = new Frame("Main frame");
+		Event e = new Event();
+		Label l1 = new Label();
+		
+		//Frame settings
+		f.setSize(400,400);
+		f.setLayout(new GridBagLayout());
+		f.setTitle("QA Consulting");
+		f.setBackground(Color.BLUE);
+		f.setCursor(Cursor.HAND_CURSOR);
+		f.setVisible(true);
+		
+		//Button 1 functionality
+		Button b1 = new Button("Button NORTH");
+		b1.addActionListener(e);
+		f.add(b1, BorderLayout.NORTH);
+
+		//Text area functionality
+		textArea = new JTextArea(5, 20);
+        textArea.setEditable(false);
+        f.add(textArea, BorderLayout.SOUTH);
+		
+        //JLabel set text
+		l1.setText(R2.name);
+
+
+		
+	}
+
+}

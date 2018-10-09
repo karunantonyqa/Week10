@@ -1,0 +1,32 @@
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.TextField;
+
+public class Main {
+
+	Frame f = new Frame();
+	static Button B1, B2, B3, B4;
+	TextField T1, T2, T3;
+	Label L1, L2, L3;
+	
+	public static void main(String[] args) {
+		
+		B1 = new Button("+");
+		B2 = new Button("-");
+		B3 = new Button("x");
+		B4 = new Button("/");
+		
+		L1 = new Label("No. 1");
+		L2 = new Label("No. 2");
+		L3 = new Label("Result");
+
+		
+
+	}
+	
+
+	
+	
+	
+}

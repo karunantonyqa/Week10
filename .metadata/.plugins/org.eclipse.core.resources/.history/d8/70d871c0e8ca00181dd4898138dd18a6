@@ -1,0 +1,15 @@
+
+public class QAConsulting {
+	
+	static QAConsulting result;
+	
+	private QAConsulting() {
+		
+	}
+	
+	public static QAConsulting createObject() {
+		
+		return result;
+	}
+
+}

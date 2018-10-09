@@ -1,0 +1,72 @@
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.WindowEvent;
+
+public class Main {
+
+	static Frame f;
+	static Button B1, B2, B3, B4;
+	static TextField T1, T2, T3;
+	static Label L1, L2, L3;
+	
+	public static void main(String[] args) {
+		
+		f = new Frame();
+		
+		B1 = new Button("+");
+		B2 = new Button("-");
+		B3 = new Button("x");
+		B4 = new Button("/");
+		
+		L1 = new Label("No. 1");
+		L2 = new Label("No. 2");
+		L3 = new Label("Result");
+		
+		T1 = new TextField();
+		T2 = new TextField();
+		T3 = new TextField();
+		T3.setEditable(false);
+
+		Event e = new Event(T1, T2, T3);
+		
+		B1.addActionListener(e);
+		B2.addActionListener(e);
+		B3.addActionListener(e);
+		B4.addActionListener(e);
+
+		
+		//Frame settings
+		f.setSize(400,400);
+		f.setLayout(new FlowLayout());
+		f.setTitle("Calculator");
+		f.setBackground(Color.CYAN);
+		f.setCursor(Cursor.HAND_CURSOR);
+		f.setVisible(true);
+		
+		f.add(L1, BorderLayout.CENTER);
+		f.add(T1, BorderLayout.CENTER);
+		f.add(L2, BorderLayout.CENTER);
+		f.add(T2, BorderLayout.CENTER);
+		f.add(B1, BorderLayout.CENTER);
+		f.add(B2, BorderLayout.CENTER);
+		f.add(B3, BorderLayout.CENTER);
+		f.add(B4, BorderLayout.CENTER);
+		f.add(L3, BorderLayout.CENTER);
+		f.add(T3, BorderLayout.CENTER);
+		
+		f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+
+
+	}
+	
+
+	
+	
+	
+}

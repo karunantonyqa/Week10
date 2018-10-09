@@ -1,0 +1,31 @@
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Panel;
+import java.awt.TextField;
+
+public class Main {
+	
+	static Frame f;
+	static Button plus, minus, divide, multiply, clear, equals;
+	static Button one, two, three, four, five, six, seven, eight, nine, zero;
+	static TextField T1, T2, T3;
+	static Panel p2, p1;
+	
+	public static void main(String[] args) {
+		
+		
+		f.setSize(500,500);
+		f.setLayout(new FlowLayout());
+		f.setTitle("Full Calculator");
+		f.setBackground(Color.CYAN);
+		f.setCursor(Cursor.HAND_CURSOR);
+		f.setVisible(true);
+		
+		f.add(p1, BorderLayout.CENTER);
+	}
+
+}
