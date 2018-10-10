@@ -188,3 +188,1252 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-10-10 10:35:51.277 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/Admin/Documents/Eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-10 10:35:58.843
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 11:14:11.189
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: org.eclipse.wb.internal.swing.model.layout.absolute.AbsoluteLayoutInfo cannot be cast to org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo
+!STACK 0
+java.lang.ClassCastException: org.eclipse.wb.internal.swing.model.layout.absolute.AbsoluteLayoutInfo cannot be cast to org.eclipse.wb.internal.swing.model.layout.gbl.AbstractGridBagLayoutInfo
+	at org.eclipse.wb.internal.swing.model.layout.gbl.VirtualConstraintsCreationSupport.<init>(VirtualConstraintsCreationSupport.java:42)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:86)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo$1.runObject(GridBagLayoutInfo.java:1)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runObject(ExecutionUtils.java:246)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutInfo.getConstraintsFor(GridBagLayoutInfo.java:66)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.getCells(GridBagLayoutSurroundSupport.java:115)
+	at org.eclipse.wb.internal.swing.model.layout.gbl.GridBagLayoutSurroundSupport.validateComponents(GridBagLayoutSurroundSupport.java:53)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.addSurroundMenu(SurroundSupport.java:111)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport.access$2(SurroundSupport.java:79)
+	at org.eclipse.wb.internal.core.model.util.surround.SurroundSupport$1.addContextMenu(SurroundSupport.java:63)
+	at sun.reflect.GeneratedMethodAccessor155.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.core.model.broadcast.BroadcastSupport$1.intercept(BroadcastSupport.java:208)
+	at org.eclipse.wb.core.model.broadcast.ObjectEventListener$$EnhancerByCGLIB$$82f929d7.addContextMenu(<generated>)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider$1.run(DesignContextMenuProvider.java:115)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.DesignContextMenuProvider.buildContextMenu(DesignContextMenuProvider.java:112)
+	at org.eclipse.wb.internal.gef.core.MultiSelectionContextMenuProvider.buildContextMenu(MultiSelectionContextMenuProvider.java:56)
+	at org.eclipse.wb.internal.gef.core.ContextMenuProvider$1.menuAboutToShow(ContextMenuProvider.java:44)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:339)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5204)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4872)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4279)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3811)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 12:28:10.326
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: Execution flow problem. {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ expected, but {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ expected, but {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.access$1(ExecutionFlowUtils.java:235)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:442)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:391)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:241)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:421)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:389)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:316)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.VariableDeclarationFragment.accept0(VariableDeclarationFragment.java:263)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:267)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.TryStatement.accept0(TryStatement.java:285)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:635)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.AnonymousClassDeclaration.accept0(AnonymousClassDeclaration.java:144)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:314)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:239)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:191)
+	at org.eclipse.wb.internal.core.model.ChildTargetCalculator.getLastTargetStatement(ChildTargetCalculator.java:202)
+	at org.eclipse.wb.internal.core.model.ChildTargetCalculator.getTarget(ChildTargetCalculator.java:107)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.getTarget(JavaInfoUtils.java:1624)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1288)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1225)
+	at org.eclipse.wb.internal.swing.model.layout.LayoutInfo.add(LayoutInfo.java:319)
+	at org.eclipse.wb.internal.swing.model.layout.absolute.AbstractAbsoluteLayoutInfo.command_CREATE(AbstractAbsoluteLayoutInfo.java:245)
+	at org.eclipse.wb.internal.swing.gefTree.policy.AbsoluteLayoutEditPolicy.command_CREATE(AbsoluteLayoutEditPolicy.java:66)
+	at org.eclipse.wb.internal.swing.gefTree.policy.AbsoluteLayoutEditPolicy.command_CREATE(AbsoluteLayoutEditPolicy.java:1)
+	at org.eclipse.wb.core.gefTree.policy.ObjectLayoutEditPolicy$2.process(ObjectLayoutEditPolicy.java:66)
+	at org.eclipse.wb.internal.core.model.util.GlobalStateJava$4$1.executeEdit(GlobalStateJava.java:208)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:52)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:324)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.tree.TreeEventManager.mouseUp(TreeEventManager.java:120)
+	at sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.internal.draw2d.EventManager$8.invoke(EventManager.java:325)
+	at com.sun.proxy.$Proxy22.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:221)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.waitEventLoop(ExecutionUtils.java:71)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.invokeLaterAndWait(SwingUtils.java:168)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.runLaterAndWait(SwingUtils.java:73)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.execRefreshOperation(ComponentInfo.java:119)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh(ObjectInfo.java:482)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$5.run(ComponentsTreePage.java:166)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.selectGraphicalViewer(ComponentsTreePage.java:148)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.access$0(ComponentsTreePage.java:145)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$1.selectionChanged(ComponentsTreePage.java:119)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:202)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:262)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:193)
+	at org.eclipse.wb.internal.gef.tree.TreeViewer$1.widgetSelected(TreeViewer.java:180)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-10-10 12:28:10.457
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy22.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:221)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.waitEventLoop(ExecutionUtils.java:71)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.invokeLaterAndWait(SwingUtils.java:168)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.runLaterAndWait(SwingUtils.java:73)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.execRefreshOperation(ComponentInfo.java:119)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh(ObjectInfo.java:482)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$5.run(ComponentsTreePage.java:166)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.selectGraphicalViewer(ComponentsTreePage.java:148)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.access$0(ComponentsTreePage.java:145)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$1.selectionChanged(ComponentsTreePage.java:119)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:202)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:262)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:193)
+	at org.eclipse.wb.internal.gef.tree.TreeViewer$1.widgetSelected(TreeViewer.java:180)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.internal.draw2d.EventManager$8.invoke(EventManager.java:325)
+	... 48 more
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:73)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:249)
+	at org.eclipse.wb.gef.core.tools.PasteTool.selectAddedObjects(PasteTool.java:78)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:63)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.tree.TreeEventManager.mouseUp(TreeEventManager.java:120)
+	... 52 more
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 12:28:10.529
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: Execution flow problem. {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ expected, but {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ expected, but {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:191)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_create(JavaInfo.java:1199)
+	at org.eclipse.wb.core.model.ObjectInfo.refreshCreate0(ObjectInfo.java:550)
+	at org.eclipse.wb.core.model.ObjectInfo.access$0(ObjectInfo.java:546)
+	at org.eclipse.wb.core.model.ObjectInfo$5$1.run(ObjectInfo.java:486)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:145)
+	at org.eclipse.wb.core.model.ObjectInfo$5.run(ObjectInfo.java:484)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils$2.run(SwingUtils.java:76)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 12:28:34.813
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: Execution flow problem. {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ expected, but {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. {
+  EventQueue.invokeLater(new Runnable(){
+    public void run(){
+      try {
+        BankingApplication window=new BankingApplication();
+        window.frame.setVisible(true);
+      }
+ catch (      Exception e) {
+        e.printStackTrace();
+      }
+    }
+  }
+);
+}
+ expected, but {
+  frame=new JFrame();
+  frame.setBounds(100,100,500,500);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  frame.getContentPane().setLayout(new CardLayout(0,0));
+  JPanel HomePage=new JPanel();
+  HomePage.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(HomePage,"name_176173073901542");
+  HomePage.setLayout(null);
+  CreateAccount=new JPanel();
+  Deposit=new JPanel();
+  Withdraw=new JPanel();
+  Statement=new JPanel();
+  JButton CreateAcc_button=new JButton("Create Account");
+  CreateAcc_button.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+      CreateAccount.setVisible(true);
+      HomePage.setVisible(false);
+    }
+  }
+);
+  CreateAcc_button.setBounds(133,202,219,39);
+  CreateAcc_button.setForeground(Color.BLACK);
+  CreateAcc_button.setBackground(new Color(51,153,51));
+  HomePage.add(CreateAcc_button);
+  JButton btnNewButton_1=new JButton("View Statement");
+  btnNewButton_1.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_1.setBounds(170,372,150,40);
+  HomePage.add(btnNewButton_1);
+  JButton btnNewButton_2=new JButton("Deposit Roons");
+  btnNewButton_2.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent arg0){
+    }
+  }
+);
+  btnNewButton_2.setBounds(170,270,150,40);
+  HomePage.add(btnNewButton_2);
+  JButton btnNewButton_3=new JButton("Withdraw Roons");
+  btnNewButton_3.addActionListener(new ActionListener(){
+    public void actionPerformed(    ActionEvent e){
+    }
+  }
+);
+  btnNewButton_3.setBounds(170,321,150,40);
+  HomePage.add(btnNewButton_3);
+  Panel HomeTopPanel=new Panel();
+  HomeTopPanel.setBackground(new Color(0,0,102));
+  HomeTopPanel.setBounds(0,0,484,175);
+  HomePage.add(HomeTopPanel);
+  HomeTopPanel.setLayout(null);
+  JLabel lblBankOfRoon=new JLabel("Bank O' Roon");
+  lblBankOfRoon.setForeground(new Color(51,153,153));
+  lblBankOfRoon.setBounds(143,51,196,42);
+  lblBankOfRoon.setFont(new Font("Segoe UI Semibold",Font.BOLD | Font.ITALIC,31));
+  HomeTopPanel.add(lblBankOfRoon);
+  JPanel CreateAccount=new JPanel();
+  CreateAccount.setBackground(Color.DARK_GRAY);
+  frame.getContentPane().add(CreateAccount,"name_176359610476172");
+  JPanel Deposit=new JPanel();
+  Deposit.setBackground(Color.DARK_GRAY);
+  Deposit.setForeground(Color.WHITE);
+  frame.getContentPane().add(Deposit,"name_176361370229835");
+  JPanel Withdraw=new JPanel();
+  Withdraw.setBackground(Color.DARK_GRAY);
+  Withdraw.setForeground(Color.WHITE);
+  frame.getContentPane().add(Withdraw,"name_176362657648496");
+  JPanel Statement=new JPanel();
+  Statement.setBackground(Color.DARK_GRAY);
+  Statement.setForeground(Color.WHITE);
+  frame.getContentPane().add(Statement,"name_176399466811433");
+}
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:191)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_create(JavaInfo.java:1199)
+	at org.eclipse.wb.core.model.ObjectInfo.refreshCreate0(ObjectInfo.java:550)
+	at org.eclipse.wb.core.model.ObjectInfo.access$0(ObjectInfo.java:546)
+	at org.eclipse.wb.core.model.ObjectInfo$5$1.run(ObjectInfo.java:486)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:145)
+	at org.eclipse.wb.core.model.ObjectInfo$5.run(ObjectInfo.java:484)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils$2.run(SwingUtils.java:76)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 12:40:38.679
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: Execution flow problem. CreateAcc_button.setBackground(new Color(51,153,51));
+ expected, but frame=new JFrame();
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. CreateAcc_button.setBackground(new Color(51,153,51));
+ expected, but frame=new JFrame();
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.access$1(ExecutionFlowUtils.java:235)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:442)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:391)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:241)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:421)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:389)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:316)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.VariableDeclarationFragment.accept0(VariableDeclarationFragment.java:263)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:267)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.TryStatement.accept0(TryStatement.java:285)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:635)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.AnonymousClassDeclaration.accept0(AnonymousClassDeclaration.java:144)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:314)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:239)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:191)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.sortNodesByFlow(JavaInfoUtils.java:1720)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.isCreatedAt(JavaInfoUtils.java:1817)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.isCreatedAtTarget(JavaInfoUtils.java:1795)
+	at org.eclipse.wb.internal.core.model.variable.AbstractSimpleVariableSupport.assertJavaInfoCreatedAt(AbstractSimpleVariableSupport.java:131)
+	at org.eclipse.wb.internal.core.model.variable.LocalUniqueVariableSupport.getReferenceExpression(LocalUniqueVariableSupport.java:81)
+	at org.eclipse.wb.internal.core.model.variable.AbstractNamedVariableSupport.getAccessExpression(AbstractNamedVariableSupport.java:117)
+	at org.eclipse.wb.internal.core.model.util.TemplateUtils.resolve(TemplateUtils.java:123)
+	at org.eclipse.wb.core.model.association.AssociationUtils.replaceTemplates(AssociationUtils.java:137)
+	at org.eclipse.wb.core.model.association.AssociationUtils.replaceTemplates(AssociationUtils.java:85)
+	at org.eclipse.wb.internal.core.model.variable.EmptyInvocationVariableSupport.add_getVariableStatementSource(EmptyInvocationVariableSupport.java:69)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:68)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1386)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1289)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:414)
+	at org.eclipse.wb.internal.swing.gefTree.policy.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:72)
+	at org.eclipse.wb.core.gef.command.EditCommand$1.run(EditCommand.java:52)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:324)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:59)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:209)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:62)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:395)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:255)
+	at org.eclipse.wb.internal.gef.tree.TreeEventManager.mouseUp(TreeEventManager.java:120)
+	at sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.internal.draw2d.EventManager$8.invoke(EventManager.java:325)
+	at com.sun.proxy.$Proxy22.mouseUp(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:221)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.waitEventLoop(ExecutionUtils.java:71)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.invokeLaterAndWait(SwingUtils.java:168)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.runLaterAndWait(SwingUtils.java:73)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.execRefreshOperation(ComponentInfo.java:119)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh(ObjectInfo.java:482)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$5.run(ComponentsTreePage.java:166)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:106)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.selectGraphicalViewer(ComponentsTreePage.java:148)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.access$0(ComponentsTreePage.java:145)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$1.selectionChanged(ComponentsTreePage.java:119)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:202)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:262)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:193)
+	at org.eclipse.wb.internal.gef.tree.TreeViewer$1.widgetSelected(TreeViewer.java:180)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 12:40:38.722
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: Execution flow problem. frame=new JFrame();
+ expected, but CreateAcc_button.setBackground(new Color(51,153,51));
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. frame=new JFrame();
+ expected, but CreateAcc_button.setBackground(new Color(51,153,51));
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.access$1(ExecutionFlowUtils.java:235)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:442)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:391)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:241)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.endVisit(ExecutionFlowUtils.java:421)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$1.intercept(ExecutionFlowUtils.java:389)
+	at org.eclipse.jdt.core.dom.ASTVisitor$$EnhancerByCGLIB$$cba1eb0d.endVisit(<generated>)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:316)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.VariableDeclarationFragment.accept0(VariableDeclarationFragment.java:263)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:267)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.TryStatement.accept0(TryStatement.java:285)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:137)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:635)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.AnonymousClassDeclaration.accept0(AnonymousClassDeclaration.java:144)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:314)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2882)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:239)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2859)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:145)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2811)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:354)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:336)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:315)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:247)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:228)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:191)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_create(JavaInfo.java:1199)
+	at org.eclipse.wb.core.model.ObjectInfo.refreshCreate0(ObjectInfo.java:550)
+	at org.eclipse.wb.core.model.ObjectInfo.access$0(ObjectInfo.java:546)
+	at org.eclipse.wb.core.model.ObjectInfo$5$1.run(ObjectInfo.java:486)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:145)
+	at org.eclipse.wb.core.model.ObjectInfo$5.run(ObjectInfo.java:484)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils$2.run(SwingUtils.java:76)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2018-10-10 12:41:09.519
+!MESSAGE Failed to resolve selection in ‘=BankingApp/src<{BankingApplication.java’ at offset 7,189.
+!STACK 1
+Java Model Exception: Java Model Status [Index out of bounds]
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:158)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:378)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:372)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:138)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 980 2018-10-10 12:41:09.520
+!MESSAGE Index out of bounds
+
+!ENTRY org.eclipse.wb.core 4 4 2018-10-10 13:56:01.756
+!MESSAGE Designer [1.10.0.201809061025.201810101114]: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wb.internal.swing.model.layout.CardLayoutInfo.refresh_afterCreate(CardLayoutInfo.java:140)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh_afterCreate(ObjectInfo.java:621)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_afterCreate(JavaInfo.java:1246)
+	at org.eclipse.wb.core.model.AbstractComponentInfo.refresh_afterCreate(AbstractComponentInfo.java:238)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh_afterCreate(ObjectInfo.java:621)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_afterCreate(JavaInfo.java:1246)
+	at org.eclipse.wb.core.model.AbstractComponentInfo.refresh_afterCreate(AbstractComponentInfo.java:238)
+	at org.eclipse.wb.core.model.ObjectInfo.refreshCreate0(ObjectInfo.java:552)
+	at org.eclipse.wb.core.model.ObjectInfo.access$0(ObjectInfo.java:546)
+	at org.eclipse.wb.core.model.ObjectInfo$5$1.run(ObjectInfo.java:486)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:145)
+	at org.eclipse.wb.core.model.ObjectInfo$5.run(ObjectInfo.java:484)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils$2.run(SwingUtils.java:76)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2018-10-10 13:56:01.858
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy23.mouseMove(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.wb.internal.draw2d.EventManager$8.invoke(EventManager.java:325)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.wb.gef.core.EditPart.getViewer(EditPart.java:539)
+	at org.eclipse.wb.gef.core.EditPart.getViewer(EditPart.java:539)
+	at org.eclipse.wb.gef.core.EditPart.getViewer(EditPart.java:539)
+	at org.eclipse.wb.gef.core.EditPart.getViewer(EditPart.java:539)
+	at org.eclipse.wb.gef.core.EditPart.getViewer(EditPart.java:539)
+	at org.eclipse.wb.gef.graphical.policies.GraphicalEditPolicy.isOnMenuLayer(GraphicalEditPolicy.java:99)
+	at org.eclipse.wb.gef.graphical.policies.GraphicalEditPolicy.getLayer(GraphicalEditPolicy.java:60)
+	at org.eclipse.wb.gef.graphical.policies.GraphicalEditPolicy.getFeedbackLayer(GraphicalEditPolicy.java:76)
+	at org.eclipse.wb.gef.graphical.policies.GraphicalEditPolicy.addFeedback(GraphicalEditPolicy.java:83)
+	at org.eclipse.wb.internal.core.gef.policy.layout.absolute.AbsoluteBasedLayoutEditPolicy.showCreationFeedback(AbsoluteBasedLayoutEditPolicy.java:650)
+	at org.eclipse.wb.internal.core.gef.policy.layout.absolute.AbsoluteBasedLayoutEditPolicy.showLayoutTargetFeedback(AbsoluteBasedLayoutEditPolicy.java:307)
+	at org.eclipse.wb.gef.graphical.policies.LayoutEditPolicy.showTargetFeedback(LayoutEditPolicy.java:210)
+	at org.eclipse.wb.gef.core.EditPart.showTargetFeedback(EditPart.java:827)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.showTargetFeedback(TargetingTool.java:242)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.handleEnteredEditPart(TargetingTool.java:99)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.setTargetEditPart(TargetingTool.java:76)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.updateTargetUnderMouse(TargetingTool.java:177)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleMove(AbstractCreationTool.java:73)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseMove(Tool.java:426)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseMove(EditDomain.java:266)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.mouseMove(EditEventManager.java:170)
+	... 32 more
